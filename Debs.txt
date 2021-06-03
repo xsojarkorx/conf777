@@ -1,0 +1,33 @@
+#!/bin/bash
+
+#Script para Debian 10
+
+echo 'Agarrate unas papitas y una coca
+Acuerdate de agregar el contrib y non-free en los repos xd'
+
+sleep 1s
+
+echo 'openbox-session' > .xinitrc
+
+sudo apt update
+
+sudo apt upgrade
+
+sudo apt xorg wget openbox obmenu obconf nitrogen network-manager-gnome clipit geany lxappearance thunar xfce4-terminal lxtask tint2 perl git cpanminus cat gcc build-essential volumeicon-alsa alsa-utils dunst moc gthumb iceweasel
+
+mkdir -p ~/.config/openbox
+
+cp /etc/xdg/openbox/{rc.xml,menu.xml,environment} ~/.config/openbox
+
+cd ~/.config/openbox
+
+echo -e 'nitrogen --restore &\ntint2 &\nvolumeicon &\nnm-applet &\nclipit &\' > autostart
+
+cd 
+
+echo 'Ojalá funcione'
+
+exit &
+
+
+
