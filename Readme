@@ -1,0 +1,4 @@
+#Solo dale permisos a cada archivo chmod +x "nombre del archivo.sh"
+ejecuta con:
+bash "nombre del archivo.sh"
+deja que trabaje y ve por unas papitas xd
