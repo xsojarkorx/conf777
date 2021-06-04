@@ -4,7 +4,7 @@
 #
 #
 echo 'Agarra unas papitas en lo que termino'
-sleep 2s;
+sleep 3s;
 #
 #
 sudo apt update && sudo apt upgrade
