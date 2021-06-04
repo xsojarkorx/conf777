@@ -1,7 +1,7 @@
 #!/bin/bash
 #
 #
-sudo apt install cpanminus
+sudo apt install cpanminus libgtk2-perl
 #
 cd ~/
 git clone git://hithub.com/trizen/obmenu-generator
