@@ -11,6 +11,7 @@ sudo cp -r obmenu-generator/schema.pl ~/.config/obmenu-generator
 sudo cpanm Linux::DesktopFiles
 sudo cpanm Data::Dump
 sudo chmod 777 /usr/bin/obmenu-generator
+obmenu-generator -p -i
 #
 #
 #
